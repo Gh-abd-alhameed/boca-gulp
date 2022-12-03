@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "gulp boca-css",
+    "js": "gulp boca-js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +19,7 @@
   "dependencies": {
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-minify": "^3.1.0"
   }
